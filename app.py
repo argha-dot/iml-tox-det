@@ -14,6 +14,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://adoring-bell-52f360.netlify.app"
 ]
 
 app.add_middleware(
